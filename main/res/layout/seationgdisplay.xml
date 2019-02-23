@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hanmaku.suwanemupotter.SeatingDisplay">
+
+
+
+    <ImageView
+        android:id="@+id/vehicleimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/zaseki" />
+
+    <ImageView
+        android:src="@mipmap/kara"
+        android:id="@+id/seat1"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="110dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:src="@mipmap/kara"
+        android:id="@+id/seat2"
+        android:layout_marginLeft="110dp"
+        android:layout_below="@+id/seat1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:src="@mipmap/kara"
+        android:id="@+id/seat3"
+        android:layout_marginLeft="110dp"
+        android:layout_below="@+id/seat2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:src="@mipmap/kara"
+        android:id="@+id/seat4"
+        android:layout_marginLeft="110dp"
+        android:layout_below="@+id/seat3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+
+    <ImageView
+        android:src="@mipmap/kara"
+        android:id="@+id/seat5"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="360dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:src="@mipmap/kara"
+        android:id="@+id/seat6"
+        android:layout_marginLeft="110dp"
+        android:layout_below="@+id/seat5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:src="@mipmap/kara"
+        android:id="@+id/seat7"
+        android:layout_marginLeft="110dp"
+        android:layout_below="@+id/seat6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:src="@mipmap/kara"
+        android:id="@+id/seat8"
+        android:layout_marginLeft="110dp"
+        android:layout_below="@+id/seat7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+    <ImageView
+        android:src="@mipmap/kara"
+        android:id="@+id/seat9"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="220dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:src="@mipmap/kara"
+        android:id="@+id/seat10"
+        android:layout_marginLeft="220dp"
+        android:layout_below="@+id/seat9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:src="@mipmap/kara"
+        android:id="@+id/seat11"
+        android:layout_marginLeft="220dp"
+        android:layout_below="@+id/seat10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:src="@mipmap/kara"
+        android:id="@+id/seat12"
+        android:layout_marginLeft="220dp"
+        android:layout_below="@+id/seat11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:src="@mipmap/kara"
+        android:id="@+id/seat13"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="220dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:src="@mipmap/kara"
+        android:id="@+id/seat14"
+        android:layout_marginLeft="220dp"
+        android:layout_below="@+id/seat13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:src="@mipmap/kara"
+        android:id="@+id/seat15"
+        android:layout_marginLeft="220dp"
+        android:layout_below="@+id/seat14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:src="@mipmap/kara"
+        android:id="@+id/seat16"
+        android:layout_marginLeft="220dp"
+        android:layout_below="@+id/seat15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:src="@mipmap/kara"
+        android:id="@+id/Realseat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/seat9"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/vhicletext"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:text="1車両目"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/qrbutton"
+        android:text="QR"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="290dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="20dp"
+        android:text="前"
+        android:layout_marginTop="90dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />
+    <TextView
+        android:textSize="20dp"
+        android:text="後"
+        android:layout_marginTop="520dp"
+        android:layout_centerHorizontal="true"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

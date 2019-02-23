@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hanmaku.suwanemupotter.VehicleSelection">
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:id="@+id/maru"
+        android:src="@mipmap/kara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/vacancymark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/maru"
+        android:layout_marginTop="10dp"
+        android:text=":空席12～"
+        android:textSize="30dp"
+        />
+    <ImageView
+        android:id="@+id/fewmark"
+        android:src="@mipmap/mama"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/vacancymark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/fewmark"
+        android:layout_marginTop="10dp"
+        android:text=":空席11～5"
+        android:textSize="30dp"
+        />
+    <ImageView
+        android:id="@+id/sankaku"
+        android:src="@mipmap/kekkou"
+        android:layout_below="@+id/maru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/congestionmark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/sankaku"
+        android:layout_below="@+id/maru"
+        android:text=":空席4～1"
+        android:textSize="30dp"
+        />
+    <ImageView
+        android:id="@+id/novacantmark"
+        android:src="@mipmap/manseki"
+        android:layout_below="@+id/fewmark"
+        android:layout_toRightOf="@+id/congestionmark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/novacantmark"
+        android:layout_below="@+id/maru"
+        android:text=":空席0"
+        android:textSize="30dp"
+        />
+    <ImageView
+        android:id="@+id/train1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/syaryou" />
+    <ImageButton
+        android:src="@mipmap/manseki"
+        android:id="@+id/vehicle1"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageButton
+        android:src="@mipmap/manseki"
+        android:id="@+id/vehicle2"
+        android:layout_marginTop="240dp"
+
+        android:layout_toRightOf="@+id/vehicle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageButton
+        android:src="@mipmap/manseki"
+        android:id="@+id/vehicle3"
+        android:layout_marginTop="240dp"
+        android:layout_toRightOf="@+id/vehicle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageButton
+        android:src="@mipmap/manseki"
+        android:id="@+id/vehicle4"
+        android:layout_marginTop="240dp"
+        android:layout_toRightOf="@+id/vehicle3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageButton
+        android:src="@mipmap/manseki"
+        android:id="@+id/vehicle5"
+        android:layout_marginTop="240dp"
+        android:layout_toRightOf="@+id/vehicle4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/deptime1"
+        android:text="出発時間"
+        android:textSize="20dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/Arryvaltime1"
+        android:text="出発時間"
+        android:textSize="20dp"
+        android:layout_toRightOf="@+id/deptime1"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="1"
+        android:layout_marginTop="215dp"
+        android:layout_marginLeft="55dp"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="2"
+        android:layout_marginTop="215dp"
+        android:layout_marginLeft="115dp"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="3"
+        android:layout_marginTop="215dp"
+        android:layout_marginLeft="175dp"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="4"
+        android:layout_marginTop="215dp"
+        android:layout_marginLeft="235dp"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="5"
+        android:layout_marginTop="215dp"
+        android:layout_marginLeft="295dp"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+    <ImageView
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/train1"
+        android:src="@mipmap/syaryou" />
+    <ImageButton
+        android:src="@mipmap/manseki"
+        android:id="@+id/vehicle6"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageButton
+        android:src="@mipmap/manseki"
+        android:id="@+id/vehicle7"
+        android:layout_marginTop="410dp"
+        android:layout_toRightOf="@+id/vehicle6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageButton
+        android:src="@mipmap/manseki"
+        android:id="@+id/vehicle8"
+        android:layout_marginTop="410dp"
+        android:layout_toRightOf="@+id/vehicle7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageButton
+        android:src="@mipmap/manseki"
+        android:id="@+id/vehicle9"
+        android:layout_marginTop="410dp"
+        android:layout_toRightOf="@+id/vehicle8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageButton
+        android:src="@mipmap/manseki"
+        android:id="@+id/vehicle10"
+        android:layout_marginTop="410dp"
+        android:layout_toRightOf="@+id/vehicle9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/deptime2"
+        android:text="出発時間"
+        android:textSize="20dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/Arryvaltime2"
+        android:text="出発時間"
+        android:layout_toRightOf="@+id/deptime2"
+        android:textSize="20dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="1"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="55dp"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="2"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="115dp"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="3"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="175dp"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="4"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="235dp"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="5"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="295dp"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

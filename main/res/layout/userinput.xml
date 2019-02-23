@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="電車検索"
+        android:textSize="40dp"
+        android:textColor="#000"
+        />
+
+
+    <TextView
+        android:id="@+id/DepTimeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
+        android:text="出発時間 :"
+        android:textSize="30sp"
+        android:textColor="#696969" />
+    <Button
+        android:id="@+id/TimeConfig"
+        android:onClick="showTimePickerDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="時間設定"
+        android:layout_marginLeft="10dp"
+        android:textSize="30dp"
+        android:layout_alignBaseline="@+id/DepTimeText"
+        android:layout_alignBottom="@+id/DepTimeText"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="66dp" />
+
+
+
+    <TextView
+        android:id="@+id/DepStationText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/DepTimeText"
+        android:text="出発駅"
+        android:textSize="30dp"
+        />
+    <Spinner
+        android:id="@+id/DepStation"
+        android:layout_gravity="center"
+        android:layout_below="@+id/DepStationText"
+        android:layout_alignStart="@+id/DepStationText"
+        android:layout_alignEnd="@+id/TimeConfig"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp">
+
+    </Spinner>
+
+
+
+    <TextView
+        android:id="@+id/ArrivalStationText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="到着駅"
+        android:layout_below="@+id/DepStation"
+        android:textSize="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        />
+    <Spinner
+        android:id="@+id/ArrivalStation"
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_alignStart="@+id/ArrivalStationText"
+        android:layout_alignEnd="@+id/TimeConfig"
+        android:layout_below="@+id/ArrivalStationText"
+        android:layout_height="40dp">
+        </Spinner>
+
+    <Button
+        android:id="@+id/Search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="検索"
+        android:textSize="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/DepTimeText"
+        android:layout_marginBottom="96dp"
+        android:layout_alignEnd="@+id/TimeConfig" />
+
+</RelativeLayout>
